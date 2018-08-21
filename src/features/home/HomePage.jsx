@@ -11,11 +11,11 @@ const HomePage = ({ history }) => {
               src="/assets/logo.png"
               alt="logo"
             />
-            <div className="content">Astrology Meetup</div>
+            <div className="content">Re-vents</div>
           </h1>
-          <h2>Looking for an astrology event?</h2>
+          <h2>Do whatever you want to do</h2>
           <div onClick={() => history.push('/events')} className="ui huge white inverted button">
-            Tell me
+            Get Started
             <i className="right arrow icon" />
           </div>
         </div>
